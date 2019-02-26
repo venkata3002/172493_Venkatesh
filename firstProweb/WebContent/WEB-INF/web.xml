@@ -4,4 +4,14 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description>login display</description>
+    <display-name>flipkart</display-name>
+    <servlet-name>flipkart</servlet-name>
+    <jsp-file>/flipkart.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>flipkart</servlet-name>
+    <url-pattern>/flipkart</url-pattern>
+  </servlet-mapping>
 </web-app>
